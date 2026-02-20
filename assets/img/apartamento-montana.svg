@@ -1,0 +1,64 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradMontana" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cielo montañoso -->
+  <rect width="400" height="180" fill="url(#gradMontana)"/>
+  
+  <!-- Montañas distantes -->
+  <path d="M 0 180 L 80 100 L 160 180" fill="#696969" opacity="0.4"/>
+  <path d="M 120 180 L 200 80 L 280 180" fill="#808080" opacity="0.5"/>
+  <path d="M 240 180 L 320 90 L 400 180" fill="#696969" opacity="0.4"/>
+  
+  <!-- Montaña principal - frente -->
+  <path d="M 0 200 Q 100 50 200 140 Q 300 180 400 200 L 400 300 L 0 300" fill="#8B7355"/>
+  <path d="M 50 200 Q 120 120 180 160 Q 250 200 350 200 L 350 300 L 50 300" fill="#A0826D"/>
+  
+  <!-- Nieve en picos -->
+  <path d="M 180 140 L 200 160 L 220 140 Z" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Cabaña triangular -->
+  <!-- Paredes principales -->
+  <rect x="100" y="160" width="200" height="100" fill="#CD853F" stroke="#333" stroke-width="2"/>
+  
+  <!-- Techo de madera triangular -->
+  <polygon points="100,160 200,80 300,160" fill="#8B4513" stroke="#333" stroke-width="2"/>
+  <polygon points="105,160 200,85 295,160" fill="#A0522D" opacity="0.7"/>
+  
+  <!-- Líneas de madera en techo -->
+  <line x1="140" y1="138" x2="150" y2="160" stroke="#654321" stroke-width="1" opacity="0.5"/>
+  <line x1="170" y1="110" x2="180" y2="160" stroke="#654321" stroke-width="1" opacity="0.5"/>
+  <line x1="200" y1="85" x2="210" y2="160" stroke="#654321" stroke-width="1" opacity="0.5"/>
+  <line x1="230" y1="110" x2="220" y2="160" stroke="#654321" stroke-width="1" opacity="0.5"/>
+  <line x1="260" y1="138" x2="250" y2="160" stroke="#654321" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Ventanas -->
+  <rect x="130" y="175" width="40" height="40" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="132" y="177" width="36" height="36" fill="#87CEEB" opacity="0.7"/>
+  <line x1="150" y1="177" x2="150" y2="213" stroke="#333" stroke-width="1"/>
+  <line x1="132" y1="195" x2="168" y2="195" stroke="#333" stroke-width="1"/>
+  
+  <rect x="230" y="175" width="40" height="40" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="232" y="177" width="36" height="36" fill="#87CEEB" opacity="0.7"/>
+  <line x1="250" y1="177" x2="250" y2="213" stroke="#333" stroke-width="1"/>
+  <line x1="232" y1="195" x2="268" y2="195" stroke="#333" stroke-width="1"/>
+  
+  <!-- Puerta con marco -->
+  <rect x="180" y="205" width="40" height="70" fill="#654321" stroke="#333" stroke-width="2"/>
+  <rect x="182" y="207" width="36" height="30" fill="#8B6914" opacity="0.6"/>
+  <circle cx="213" cy="240" r="4" fill="#C0C000"/>
+  
+  <!-- Chimenea de piedra -->
+  <rect x="175" y="70" width="20" height="100" fill="#696969" stroke="#333" stroke-width="1"/>
+  <line x1="178" y1="75" x2="192" y2="75" stroke="#555555" stroke-width="1" opacity="0.6"/>
+  <line x1="178" y1="82" x2="192" y2="82" stroke="#555555" stroke-width="1" opacity="0.6"/>
+  <rect x="172" y="65" width="26" height="8" fill="#555555" stroke="#333" stroke-width="1"/>
+  
+  <!-- Pequeña chimenea de humo (decorativa) -->
+  <circle cx="185" cy="63" r="2" fill="#CCCCCC" opacity="0.6"/>
+  <circle cx="184" cy="58" r="1.5" fill="#CCCCCC" opacity="0.4"/>
+</svg>

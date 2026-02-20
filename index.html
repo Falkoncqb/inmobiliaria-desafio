@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Inmobiliaria ADL</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tu archivo CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+    <nav class="bg-slate-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold"><a href="index.html">🏘️ Inmobiliaria ADL</a></h1>
+            <ul class="flex space-x-6">
+                <li><a href="propiedades_venta.html" class="hover:text-blue-300 transition">En venta</a></li>
+                <li><a href="propiedades_alquiler.html" class="hover:text-blue-300 transition">Alquiler</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero-bg text-white text-center py-40 mb-16">
+        <h2 class="text-5xl font-bold mb-4">Encuentra tu nueva propiedad</h2>
+        <p class="text-xl opacity-90">Descubre las mejores propiedades en venta y alquiler</p>
+    </header>
+
+    <main class="container mx-auto px-4 pb-12">
+        <!-- Sección Venta -->
+        <section class="mb-16">
+            <h3 class="text-3xl font-bold mb-8 text-gray-800">🏪 Propiedades en venta</h3>
+            <div id="contenedor-venta-index" class="grid">
+                <!-- Tarjetas generadas por JS -->
+            </div>
+            <div class="mt-8 text-center">
+                <a href="propiedades_venta.html" class="btn btn-primary">Ver todas las propiedades en venta</a>
+            </div>
+        </section>
+
+        <!-- Separador -->
+        <hr class="my-16 border-gray-300">
+
+        <!-- Sección Alquiler -->
+        <section class="mb-16">
+            <h3 class="text-3xl font-bold mb-8 text-gray-800">🔑 Propiedades en alquiler</h3>
+            <div id="contenedor-alquiler-index" class="grid">
+                <!-- Tarjetas generadas por JS -->
+            </div>
+            <div class="mt-8 text-center">
+                <a href="propiedades_alquiler.html" class="btn btn-primary">Ver todas las propiedades en alquiler</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-800 text-white text-center py-8 mt-16">
+        <p>&copy; 2026 Inmobiliaria ADL - Desafío Latam</p>
+        <p class="text-sm text-gray-400 mt-2">Todos los derechos reservados</p>
+    </footer>
+
+    <!-- Tu archivo JS -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

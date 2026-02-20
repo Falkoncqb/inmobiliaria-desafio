@@ -1,0 +1,82 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradCentroCielo" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0D5C8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cielo urbano -->
+  <rect width="400" height="130" fill="url(#gradCentroCielo)"/>
+  
+  <!-- Edificios de fondo -->
+  <rect x="10" y="90" width="55" height="90" fill="#8B8680" stroke="#333" stroke-width="1"/>
+  <rect x="335" y="110" width="55" height="70" fill="#8B8680" stroke="#333" stroke-width="1"/>
+  
+  <!-- Ventanas de fondo -->
+  <g id="ventanas-fondo">
+    <rect x="20" y="105" width="10" height="10" fill="#FFD700"/>
+    <rect x="35" y="105" width="10" height="10" fill="#FFD700"/>
+    <rect x="20" y="125" width="10" height="10" fill="#FFD700"/>
+    <rect x="35" y="125" width="10" height="10" fill="#FFD700"/>
+  </g>
+  
+  <!-- Pavimento -->
+  <rect y="180" width="400" height="120" fill="#C0C0C0"/>
+  <!-- Líneas de pavimento -->
+  <line x1="0" y1="210" x2="400" y2="210" stroke="#A9A9A9" stroke-width="2"/>
+  <line x1="0" y1="240" x2="400" y2="240" stroke="#A9A9A9" stroke-width="2"/>
+  <line x1="0" y1="270" x2="400" y2="270" stroke="#A9A9A9" stroke-width="2"/>
+  
+  <!-- Línea divisora de manzana -->
+  <line x1="200" y1="180" x2="200" y2="300" stroke="#555555" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Edificio principal urbano - Sección frontal -->
+  <rect x="80" y="75" width="240" height="135" fill="#D2B48C" stroke="#333" stroke-width="2"/>
+  
+  <!-- Ventanas de vidrio principal - Línea 1 (Piso alto) -->
+  <rect x="105" y="90" width="35" height="35" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="107" y="92" width="31" height="31" fill="#87CEEB" opacity="0.7"/>
+  <line x1="122" y1="92" x2="122" y2="123" stroke="#333" stroke-width="1"/>
+  <line x1="107" y1="107" x2="138" y2="107" stroke="#333" stroke-width="1"/>
+  
+  <rect x="165" y="90" width="35" height="35" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="167" y="92" width="31" height="31" fill="#87CEEB" opacity="0.7"/>
+  <line x1="182" y1="92" x2="182" y2="123" stroke="#333" stroke-width="1"/>
+  <line x1="167" y1="107" x2="198" y2="107" stroke="#333" stroke-width="1"/>
+  
+  <rect x="225" y="90" width="35" height="35" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="227" y="92" width="31" height="31" fill="#FFD700" opacity="0.6"/>
+  <line x1="242" y1="92" x2="242" y2="123" stroke="#333" stroke-width="1"/>
+  <line x1="227" y1="107" x2="258" y2="107" stroke="#333" stroke-width="1"/>
+  
+  <!-- Ventanas Línea 2 (Piso medio) -->
+  <rect x="105" y="135" width="35" height="35" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="107" y="137" width="31" height="31" fill="#87CEEB" opacity="0.7"/>
+  <line x1="122" y1="137" x2="122" y2="168" stroke="#333" stroke-width="1"/>
+  <line x1="107" y1="152" x2="138" y2="152" stroke="#333" stroke-width="1"/>
+  
+  <rect x="165" y="135" width="35" height="35" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="167" y="137" width="31" height="31" fill="#87CEEB" opacity="0.7"/>
+  <line x1="182" y1="137" x2="182" y2="168" stroke="#333" stroke-width="1"/>
+  <line x1="167" y1="152" x2="198" y2="152" stroke="#333" stroke-width="1"/>
+  
+  <rect x="225" y="135" width="35" height="35" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="227" y="137" width="31" height="31" fill="#87CEEB" opacity="0.7"/>
+  <line x1="242" y1="137" x2="242" y2="168" stroke="#333" stroke-width="1"/>
+  <line x1="227" y1="152" x2="258" y2="152" stroke="#333" stroke-width="1"/>
+  
+  <!-- Puerta de entrada con marco -->
+  <rect x="190" y="175" width="40" height="55" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="192" y="177" width="36" height="50" fill="#2C3E50" stroke="#333" stroke-width="1"/>
+  <rect x="194" y="190" width="32" height="20" fill="#4DB8FF" opacity="0.5"/>
+  <circle cx="224" cy="213" r="4" fill="#FFD700"/>
+  
+  <!-- Número de apartamento -->
+  <rect x="75" y="95" width="20" height="20" fill="#FF6B6B" stroke="#333" stroke-width="1"/>
+  <text x="85" y="107" font-size="10" font-weight="bold" text-anchor="middle" fill="white">101</text>
+  
+  <!-- Pequeña maceta en entrada -->
+  <ellipse cx="95" cy="210" rx="8" ry="5" fill="#8B4513"/>
+  <circle cx="95" cy="205" r="5" fill="#7CB342"/>
+</svg>

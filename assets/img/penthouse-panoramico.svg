@@ -1,0 +1,85 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradNoche" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cielo nocturno -->
+  <rect width="400" height="300" fill="url(#gradNoche)"/>
+  
+  <!-- Estrellas dispersas -->
+  <circle cx="30" cy="30" r="1.5" fill="#FFD700"/>
+  <circle cx="80" cy="25" r="1" fill="#FFFFFF"/>
+  <circle cx="150" cy="35" r="1.2" fill="#FFD700"/>
+  <circle cx="220" cy="20" r="1" fill="#FFFFFF"/>
+  <circle cx="300" cy="40" r="1" fill="#FFD700"/>
+  <circle cx="360" cy="30" r="1.2" fill="#FFFFFF"/>
+  
+  <!-- Luna creciente -->
+  <circle cx="340" cy="50" r="30" fill="#F0E68C"/>
+  <circle cx="350" cy="50" r="30" fill="#1a1a2e"/>
+  
+  <!-- Rascacielos en la noche -->
+  <rect x="80" y="60" width="240" height="200" fill="#1a1a2e" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Patrón de ventanas iluminadas -->
+  <rect x="100" y="75" width="12" height="12" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  <rect x="120" y="75" width="12" height="12" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  <rect x="140" y="75" width="12" height="12" fill="#1a1a2e" stroke="#333" stroke-width="0.5"/>
+  <rect x="160" y="75" width="12" height="12" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  <rect x="180" y="75" width="12" height="12" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  <rect x="200" y="75" width="12" height="12" fill="#1a1a2e" stroke="#333" stroke-width="0.5"/>
+  <rect x="220" y="75" width="12" height="12" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  <rect x="240" y="75" width="12" height="12" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  
+  <!-- Segunda fila de ventanas -->
+  <rect x="100" y="95" width="12" height="12" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  <rect x="120" y="95" width="12" height="12" fill="#1a1a2e" stroke="#333" stroke-width="0.5"/>
+  <rect x="140" y="95" width="12" height="12" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  <rect x="160" y="95" width="12" height="12" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  <rect x="180" y="95" width="12" height="12" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  <rect x="200" y="95" width="12" height="12" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  <rect x="220" y="95" width="12" height="12" fill="#1a1a2e" stroke="#333" stroke-width="0.5"/>
+  <rect x="240" y="95" width="12" height="12" fill="#FFD700" stroke="#333" stroke-width="0.5"/>
+  
+  <!-- Más filas con patrón de ventanas -->
+  <g id="ventanas-fila3">
+    <rect x="100" y="115" width="12" height="12" fill="#FFD700"/>
+    <rect x="120" y="115" width="12" height="12" fill="#FFD700"/>
+    <rect x="140" y="115" width="12" height="12" fill="#1a1a2e"/>
+    <rect x="160" y="115" width="12" height="12" fill="#FFD700"/>
+    <rect x="180" y="115" width="12" height="12" fill="#FFD700"/>
+    <rect x="200" y="115" width="12" height="12" fill="#FFD700"/>
+    <rect x="220" y="115" width="12" height="12" fill="#FFD700"/>
+    <rect x="240" y="115" width="12" height="12" fill="#1a1a2e"/>
+  </g>
+  
+  <!-- Penthouse superior - VIP - Todas luces encendidas -->
+  <rect x="100" y="140" width="12" height="15" fill="#FF6B6B"/>
+  <rect x="120" y="140" width="12" height="15" fill="#FF6B6B"/>
+  <rect x="140" y="140" width="12" height="15" fill="#FF6B6B"/>
+  <rect x="160" y="140" width="12" height="15" fill="#FF6B6B"/>
+  <rect x="180" y="140" width="12" height="15" fill="#FF6B6B"/>
+  <rect x="200" y="140" width="12" height="15" fill="#FF6B6B"/>
+  <rect x="220" y="140" width="12" height="15" fill="#FF6B6B"/>
+  <rect x="240" y="140" width="12" height="15" fill="#FF6B6B"/>
+  
+  <!-- Terraza panorámica del Penthouse -->
+  <rect x="70" y="260" width="280" height="12" fill="#C0C0C0" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="260" x2="80" y2="272" stroke="#696969" stroke-width="1"/>
+  <line x1="110" y1="260" x2="110" y2="272" stroke="#696969" stroke-width="1"/>
+  <line x1="140" y1="260" x2="140" y2="272" stroke="#696969" stroke-width="1"/>
+  <line x1="170" y1="260" x2="170" y2="272" stroke="#696969" stroke-width="1"/>
+  <line x1="200" y1="260" x2="200" y2="272" stroke="#696969" stroke-width="1"/>
+  <line x1="230" y1="260" x2="230" y2="272" stroke="#696969" stroke-width="1"/>
+  <line x1="260" y1="260" x2="260" y2="272" stroke="#696969" stroke-width="1"/>
+  <line x1="290" y1="260" x2="290" y2="272" stroke="#696969" stroke-width="1"/>
+  <line x1="320" y1="260" x2="320" y2="272" stroke="#696969" stroke-width="1"/>
+  
+  <!-- Acceso principal -->
+  <rect x="185" y="235" width="30" height="40" fill="#2C3E50" stroke="#FFD700" stroke-width="2"/>
+  <rect x="188" y="238" width="24" height="20" fill="#4DB8FF" opacity="0.4"/>
+  <circle cx="200" cy="262" r="2" fill="#FFD700"/>
+</svg>

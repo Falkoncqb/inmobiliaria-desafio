@@ -1,0 +1,87 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradCondoCielo" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradCondoFachada" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F5F5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8E8E8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cielo -->
+  <rect width="400" height="140" fill="url(#gradCondoCielo)"/>
+  
+  <!-- Piso de concreto -->
+  <rect y="140" width="400" height="160" fill="#B0B0B0"/>
+  <!-- Líneas de pavimento -->
+  <line x1="0" y1="170" x2="400" y2="170" stroke="#999999" stroke-width="1"/>
+  <line x1="200" y1="140" x2="200" y2="300" stroke="#999999" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Sombra del edificio -->
+  <polygon points="70,260 330,260 320,270 80,270" fill="#000000" opacity="0.12"/>
+  
+  <!-- Edificio minimalista moderno -->
+  <rect x="70" y="70" width="260" height="160" fill="url(#gradCondoFachada)" stroke="#333" stroke-width="3"/>
+  
+  <!-- Accento de color lateral izquierdo -->
+  <rect x="70" y="70" width="15" height="160" fill="#2196F3"/>
+  
+  <!-- Panel de líneas horizontales decorativas (minimalismo) -->
+  <line x1="85" y1="85" x2="315" y2="85" stroke="#2196F3" stroke-width="1" opacity="0.4"/>
+  <line x1="85" y1="100" x2="315" y2="100" stroke="#2196F3" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Fila de ventanas grandes horizontales - Primer nivel -->
+  <rect x="100" y="110" width="85" height="28" fill="none" stroke="#2196F3" stroke-width="2"/>
+  <rect x="102" y="112" width="81" height="24" fill="#87CEEB" opacity="0.7"/>
+  <line x1="142" y1="112" x2="142" y2="136" stroke="#2196F3" stroke-width="1"/>
+  <line x1="102" y1="124" x2="183" y2="124" stroke="#2196F3" stroke-width="1"/>
+  
+  <rect x="215" y="110" width="85" height="28" fill="none" stroke="#2196F3" stroke-width="2"/>
+  <rect x="217" y="112" width="81" height="24" fill="#87CEEB" opacity="0.7"/>
+  <line x1="257" y1="112" x2="257" y2="136" stroke="#2196F3" stroke-width="1"/>
+  <line x1="217" y1="124" x2="298" y2="124" stroke="#2196F3" stroke-width="1"/>
+  
+  <!-- Fila de ventanas - Segundo nivel -->
+  <rect x="100" y="155" width="85" height="28" fill="none" stroke="#2196F3" stroke-width="2"/>
+  <rect x="102" y="157" width="81" height="24" fill="#87CEEB" opacity="0.7"/>
+  <line x1="142" y1="157" x2="142" y2="181" stroke="#2196F3" stroke-width="1"/>
+  <line x1="102" y1="169" x2="183" y2="169" stroke="#2196F3" stroke-width="1"/>
+  
+  <rect x="215" y="155" width="85" height="28" fill="none" stroke="#2196F3" stroke-width="2"/>
+  <rect x="217" y="157" width="81" height="24" fill="#87CEEB" opacity="0.7"/>
+  <line x1="257" y1="157" x2="257" y2="181" stroke="#2196F3" stroke-width="1"/>
+  <line x1="217" y1="169" x2="298" y2="169" stroke="#2196F3" stroke-width="1"/>
+  
+  <!-- Línea horizontal divisora principal -->
+  <line x1="70" y1="145" x2="330" y2="145" stroke="#2196F3" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Entrada moderna -->
+  <rect x="185" y="205" width="50" height="65" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="187" y="207" width="46" height="35" fill="#2C3E50" stroke="#333" stroke-width="1"/>
+  <rect x="190" y="220" width="40" height="15" fill="#4DB8FF" opacity="0.5"/>
+  <circle cx="210" cy="248" r="5" fill="#FFD700"/>
+  
+  <!-- Balcones minimales - Línea superior -->
+  <rect x="95" y="60" width="45" height="12" fill="#D3D3D3" stroke="#2196F3" stroke-width="2"/>
+  <line x1="110" y1="72" x2="110" y2="78" stroke="#333" stroke-width="1"/>
+  <line x1="130" y1="72" x2="130" y2="78" stroke="#333" stroke-width="1"/>
+  
+  <rect x="260" y="60" width="45" height="12" fill="#D3D3D3" stroke="#2196F3" stroke-width="2"/>
+  <line x1="275" y1="72" x2="275" y2="78" stroke="#333" stroke-width="1"/>
+  <line x1="295" y1="72" x2="295" y2="78" stroke="#333" stroke-width="1"/>
+  
+  <!-- Plantas decorativas modernas en entrada -->
+  <g id="macetero-moderno">
+    <rect x="45" y="235" width="15" height="15" fill="#D3D3D3" stroke="#333" stroke-width="1"/>
+    <circle cx="52" cy="232" r="6" fill="#7CB342"/>
+    <circle cx="48" cy="228" r="4" fill="#9CCC65"/>
+  </g>
+  
+  <g id="macetero-moderno2">
+    <rect x="340" y="235" width="15" height="15" fill="#D3D3D3" stroke="#333" stroke-width="1"/>
+    <circle cx="347" cy="232" r="6" fill="#7CB342"/>
+    <circle cx="355" cy="228" r="4" fill="#9CCC65"/>
+  </g>
+</svg>

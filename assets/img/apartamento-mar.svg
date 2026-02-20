@@ -1,0 +1,82 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradMarAgua" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00CED1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F4F4F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Agua marina -->
+  <rect width="400" height="180" fill="url(#gradMarAgua)"/>
+  
+  <!-- Olas del mar -->
+  <path d="M 0 160 Q 50 150 100 160 T 200 160 T 300 160 T 400 160" stroke="#00BFFF" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 0 175 Q 50 165 100 175 T 200 175 T 300 175 T 400 175" stroke="#00BFFF" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 0 190 Q 50 180 100 190 T 200 190 T 300 190 T 400 190" stroke="#00BFFF" stroke-width="2" fill="none" opacity="0.3"/>
+  
+  <!-- Arena -->
+  <rect y="180" width="400" height="120" fill="#F4A460"/>
+  
+  <!-- Sombra del edificio -->
+  <polygon points="80,270 320,270 310,280 90,280" fill="#000000" opacity="0.15"/>
+  
+  <!-- Edificio frente al mar - Hormigón moderno -->
+  <rect x="80" y="70" width="240" height="135" fill="#E8D7C3" stroke="#333" stroke-width="2"/>
+  
+  <!-- Línea horizontal divisora de pisos -->
+  <line x1="80" y1="130" x2="320" y2="130" stroke="#999999" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Grandes ventanales tipo mirador -->
+  <!-- Ventana 1 (IZQUIERDA) -->
+  <rect x="100" y="85" width="50" height="60" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="102" y="87" width="46" height="56" fill="#4DB8FF" opacity="0.75"/>
+  <line x1="127" y1="87" x2="127" y2="143" stroke="#333" stroke-width="1"/>
+  <line x1="102" y1="115" x2="148" y2="115" stroke="#333" stroke-width="1"/>
+  
+  <!-- Ventana 2 (CENTRO) -->
+  <rect x="175" y="85" width="50" height="60" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="177" y="87" width="46" height="56" fill="#4DB8FF" opacity="0.75"/>
+  <line x1="202" y1="87" x2="202" y2="143" stroke="#333" stroke-width="1"/>
+  <line x1="177" y1="115" x2="223" y2="115" stroke="#333" stroke-width="1"/>
+  
+  <!-- Ventana 3 (DERECHA) -->
+  <rect x="250" y="85" width="50" height="60" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="252" y="87" width="46" height="56" fill="#FFD700" opacity="0.65"/>
+  <line x1="277" y1="87" x2="277" y2="143" stroke="#333" stroke-width="1"/>
+  <line x1="252" y1="115" x2="298" y2="115" stroke="#333" stroke-width="1"/>
+  
+  <!-- Balcones amplios en piso superior -->
+  <rect x="95" y="155" width="60" height="10" fill="#C0C0C0" stroke="#333" stroke-width="1"/>
+  <line x1="110" y1="165" x2="110" y2="173" stroke="#333" stroke-width="1"/>
+  <line x1="130" y1="165" x2="130" y2="173" stroke="#333" stroke-width="1"/>
+  <line x1="150" y1="165" x2="150" y2="173" stroke="#333" stroke-width="1"/>
+  
+  <rect x="175" y="155" width="60" height="10" fill="#C0C0C0" stroke="#333" stroke-width="1"/>
+  <line x1="190" y1="165" x2="190" y2="173" stroke="#333" stroke-width="1"/>
+  <line x1="210" y1="165" x2="210" y2="173" stroke="#333" stroke-width="1"/>
+  
+  <rect x="255" y="155" width="60" height="10" fill="#C0C0C0" stroke="#333" stroke-width="1"/>
+  <line x1="270" y1="165" x2="270" y2="173" stroke="#333" stroke-width="1"/>
+  <line x1="290" y1="165" x2="290" y2="173" stroke="#333" stroke-width="1"/>
+  
+  <!-- Planta baja - Local comercial -->
+  <rect x="100" y="175" width="35" height="35" fill="#3C3C3C" stroke="#333" stroke-width="2"/>
+  <rect x="255" y="175" width="35" height="35" fill="#3C3C3C" stroke="#333" stroke-width="2"/>
+  
+  <!-- Puerta principal de entrada -->
+  <rect x="190" y="190" width="40" height="55" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="192" y="192" width="36" height="20" fill="#4DB8FF" opacity="0.5"/>
+  <circle cx="210" cy="230" r="5" fill="#FFD700"/>
+  
+  <!-- Palmera decorativa - Mar -->
+  <g id="palmera-mar">
+    <rect x="35" y="130" width="7" height="60" fill="#8B4513"/>
+    <circle cx="38" cy="125" r="16" fill="#228B22" opacity="0.8"/>
+    <circle cx="25" cy="135" r="8" fill="#32CD32" opacity="0.7"/>
+    <circle cx="50" cy="135" r="8" fill="#32CD32" opacity="0.7"/>
+  </g>
+  
+  <!-- Sol en el horizonte -->
+  <circle cx="350" cy="40" r="28" fill="#FFD700" opacity="0.8"/>
+  <circle cx="352" cy="42" r="26" fill="#FFA500" opacity="0.6"/>
+</svg>

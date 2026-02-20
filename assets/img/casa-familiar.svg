@@ -1,0 +1,83 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradCasaCielo" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cielo -->
+  <rect width="400" height="150" fill="url(#gradCasaCielo)"/>
+  
+  <!-- Piso con jardín -->
+  <ellipse cx="200" cy="250" rx="160" ry="40" fill="#228B22"/>
+  <rect y="150" width="400" height="100" fill="#7CB342"/>
+  
+  <!-- Sombra de la casa -->
+  <polygon points="60,260 340,260 330,270 70,270" fill="#000000" opacity="0.1"/>
+  
+  <!-- Casa principal - estructura -->
+  <rect x="60" y="110" width="280" height="140" fill="#D2691E" stroke="#333" stroke-width="2"/>
+  
+  <!-- Garaje lateral -->
+  <rect x="350" y="150" width="35" height="70" fill="#A9A9A9" stroke="#333" stroke-width="2"/>
+  <rect x="355" y="165" width="25" height="40" fill="#696969" stroke="#333" stroke-width="1"/>
+  
+  <!-- Techo principal triangular (a dos aguas) -->
+  <polygon points="60,110 200,30 340,110" fill="#8B4513" stroke="#333" stroke-width="2"/>
+  <polygon points="65,110 200,35 335,110" fill="#A0522D" opacity="0.8"/>
+  
+  <!-- Líneas de tejas -->
+  <line x1="100" y1="90" x2="110" y2="110" stroke="#654321" stroke-width="0.8" opacity="0.5"/>
+  <line x1="150" y1="50" x2="160" y2="110" stroke="#654321" stroke-width="0.8" opacity="0.5"/>
+  <line x1="200" y1="30" x2="210" y2="110" stroke="#654321" stroke-width="0.8" opacity="0.5"/>
+  <line x1="250" y1="50" x2="240" y2="110" stroke="#654321" stroke-width="0.8" opacity="0.5"/>
+  <line x1="300" y1="90" x2="290" y2="110" stroke="#654321" stroke-width="0.8" opacity="0.5"/>
+  
+  <!-- Chimenea -->
+  <rect x="180" y="50" width="15" height="60" fill="#696969" stroke="#333" stroke-width="1"/>
+  <rect x="177" y="45" width="21" height="7" fill="#555555" stroke="#333" stroke-width="1"/>
+  
+  <!-- Ventanas de la planta baja -->
+  <rect x="90" y="140" width="45" height="40" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="92" y="142" width="41" height="36" fill="#87CEEB" opacity="0.7"/>
+  <line x1="112" y1="142" x2="112" y2="178" stroke="#333" stroke-width="1"/>
+  <line x1="92" y1="160" x2="133" y2="160" stroke="#333" stroke-width="1"/>
+  
+  <rect x="265" y="140" width="45" height="40" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="267" y="142" width="41" height="36" fill="#87CEEB" opacity="0.7"/>
+  <line x1="287" y1="142" x2="287" y2="178" stroke="#333" stroke-width="1"/>
+  <line x1="267" y1="160" x2="308" y2="160" stroke="#333" stroke-width="1"/>
+  
+  <!-- Ventanas de planta alta -->
+  <rect x="75" y="70" width="35" height="30" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="77" y="72" width="31" height="26" fill="#FFD700" opacity="0.6"/>
+  <line x1="92" y1="72" x2="92" y2="98" stroke="#333" stroke-width="0.8"/>
+  <line x1="77" y1="85" x2="108" y2="85" stroke="#333" stroke-width="0.8"/>
+  
+  <rect x="160" y="55" width="35" height="30" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="162" y="57" width="31" height="26" fill="#FFD700" opacity="0.6"/>
+  <line x1="177" y1="57" x2="177" y2="83" stroke="#333" stroke-width="0.8"/>
+  <line x1="162" y1="70" x2="193" y2="70" stroke="#333" stroke-width="0.8"/>
+  
+  <rect x="245" y="55" width="35" height="30" fill="none" stroke="#333" stroke-width="2"/>
+  <rect x="247" y="57" width="31" height="26" fill="#FFD700" opacity="0.6"/>
+  <line x1="262" y1="57" x2="262" y2="83" stroke="#333" stroke-width="0.8"/>
+  <line x1="247" y1="70" x2="278" y2="70" stroke="#333" stroke-width="0.8"/>
+  
+  <!-- Puerta de entrada -->
+  <rect x="180" y="200" width="50" height="80" fill="#654321" stroke="#333" stroke-width="2" rx="2"/>
+  <rect x="182" y="202" width="46" height="50" fill="#8B6914" opacity="0.6"/>
+  <circle cx="225" cy="235" r="5" fill="#C0C000" stroke="#333" stroke-width="1"/>
+  
+  <!-- Entrada - Peldaños -->
+  <rect x="175" y="280" width="60" height="8" fill="#A9A9A9" stroke="#333" stroke-width="1"/>
+  <line x1="175" y1="285" x2="235" y2="285" stroke="#696969" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Plantas decorativas en el jardín -->
+  <circle cx="100" cy="235" r="12" fill="#228B22"/>
+  <circle cx="110" cy="245" r="10" fill="#32CD32"/>
+  
+  <circle cx="300" cy="240" r="12" fill="#228B22"/>
+  <circle cx="290" cy="250" r="10" fill="#32CD32"/>
+</svg>
